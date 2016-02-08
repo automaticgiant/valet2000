@@ -1,4 +1,4 @@
-# valet2000
+# valet2000 [![Build Status](https://travis-ci.org/automaticgiant/valet2000.svg?branch=master)](https://travis-ci.org/automaticgiant/valet2000)
 
 ## Installation
 
