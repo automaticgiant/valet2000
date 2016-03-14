@@ -12,3 +12,7 @@ Use a package manager (apt, pacman, yum, homebrew, etc...) to install [zsh](http
 
 ### Both
 Use [installation script](../install_valet2k.sh).
+
+##Resources
+- [tmux manpage](http://www.openbsd.org/cgi-bin/man.cgi/OpenBSD-current/man1/tmux.1?query=tmux&sec=1)
+- [zle documentation](http://zsh.sourceforge.net/Doc/Release/Zsh-Line-Editor.html#Modifying-Text)
