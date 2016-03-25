@@ -11,7 +11,8 @@ Get [Babun](https://babun.github.io/) or [Cygwin](https://babun.github.io/) or m
 Use a package manager (apt, pacman, yum, homebrew, etc...) to install [zsh](http://www.zsh.org/).
 
 ### Both
-Use [installation script](../install_valet2k.sh).
+- Execute `viewcommand.sh`
+- From within the tmux pane: `source command_echo.sh`
 
 ##Resources
 - [tmux manpage](http://man.openbsd.org/OpenBSD-current/man1/tmux.1)
