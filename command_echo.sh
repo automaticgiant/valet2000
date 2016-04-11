@@ -1,12 +1,13 @@
 #!/usr/bin/zsh
 
-[[ -z $precmd_functions ]] && precmd_functions=()
-directory() {
+[[ -z $chpwd_functions ]] && chpwd_functions=()
+directory_tree() {
     clear > ~/.v2k_print_pipe
-	echo "$(pwd):\n$(ls -C --color=always)" > ~/.v2k_print_pipe
+	echo "$(pwd):\n$(tree -L 3 --filelimit 10)" > ~/.v2k_print_pipe
+	#echo "$(pwd):\n$(tree --du -shaC | grep -Ev '(  *[^ ]* ){3}\[')" > ~/.v2k_print_pipe
     #ls --color=always > ~/.v2k_print_pipe
 }
-precmd_functions+=directory
+chpwd_functions+=directory_tree
 
 function accept-line() {
 	#echo "${BUFFER}" > ~/.v2k_print_pipe
